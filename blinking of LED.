@@ -1,0 +1,16 @@
+//asim mondal avi_1st arduino program
+//using device Arduino UNO R3.
+int light_number=13; 
+//we can change the pin number by changing the value of this variable only
+
+void setup() {
+pinMode(light_number,OUTPUT);
+}
+
+void loop() {
+digitalWrite(light_number,HIGH);
+delay(1000);
+digitalWrite(light_number,LOW);
+delay(1000);
+
+}
